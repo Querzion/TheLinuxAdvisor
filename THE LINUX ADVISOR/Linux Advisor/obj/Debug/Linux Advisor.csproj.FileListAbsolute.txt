@@ -1,0 +1,10 @@
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\bin\Debug\Linux Advisor.exe.config
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\bin\Debug\Linux Advisor.exe
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\bin\Debug\Linux Advisor.pdb
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.csproj.AssemblyReference.cache
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux_Advisor.Form1.resources
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux_Advisor.Properties.Resources.resources
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.csproj.GenerateResource.cache
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.csproj.CoreCompileInputs.cache
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.exe
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.pdb

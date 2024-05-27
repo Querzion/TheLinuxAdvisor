@@ -30,70 +30,70 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.gbx_Experience = new System.Windows.Forms.GroupBox();
+            this.btn_Accustomed = new System.Windows.Forms.Button();
+            this.btn_Expert = new System.Windows.Forms.Button();
+            this.btn_New = new System.Windows.Forms.Button();
+            this.btn_Advanced = new System.Windows.Forms.Button();
+            this.gbx_Purpose = new System.Windows.Forms.GroupBox();
+            this.btn_Server = new System.Windows.Forms.Button();
+            this.btn_HomeServer = new System.Windows.Forms.Button();
+            this.btn_Work = new System.Windows.Forms.Button();
+            this.btn_Gaming = new System.Windows.Forms.Button();
+            this.btn_DailyDriver = new System.Windows.Forms.Button();
+            this.btn_Education = new System.Windows.Forms.Button();
+            this.gbx_Stability = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
+            this.btn_Very = new System.Windows.Forms.Button();
+            this.btn_NotAtAll = new System.Windows.Forms.Button();
+            this.btn_Extremely = new System.Windows.Forms.Button();
+            this.btn_Usable = new System.Windows.Forms.Button();
+            this.gbx_Release = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.btn_RollingRelease = new System.Windows.Forms.Button();
+            this.btn_SeasonalRelease = new System.Windows.Forms.Button();
+            this.gbx_Interface = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.btn_WM = new System.Windows.Forms.Button();
+            this.btn_DE = new System.Windows.Forms.Button();
+            this.gbx_DE = new System.Windows.Forms.GroupBox();
+            this.btn_Lxde = new System.Windows.Forms.Button();
+            this.btn_Enlightenment = new System.Windows.Forms.Button();
+            this.btn_Deepin = new System.Windows.Forms.Button();
+            this.btn_Lxqt = new System.Windows.Forms.Button();
+            this.btn_Cinnamon = new System.Windows.Forms.Button();
+            this.btn_Xfce = new System.Windows.Forms.Button();
+            this.btn_Mate = new System.Windows.Forms.Button();
+            this.btn_Gnome = new System.Windows.Forms.Button();
+            this.btn_KDEPlasma = new System.Windows.Forms.Button();
+            this.gbx_WM = new System.Windows.Forms.GroupBox();
+            this.btn_Awesome = new System.Windows.Forms.Button();
+            this.btn_Herbstluftwm = new System.Windows.Forms.Button();
+            this.btn_Qtile = new System.Windows.Forms.Button();
+            this.btn_Xmonad = new System.Windows.Forms.Button();
+            this.btn_Wayfire = new System.Windows.Forms.Button();
+            this.btn_Hyprland = new System.Windows.Forms.Button();
+            this.btn_Bspwm = new System.Windows.Forms.Button();
+            this.btn_i3 = new System.Windows.Forms.Button();
+            this.btn_Sway = new System.Windows.Forms.Button();
+            this.gbx_DisplayServer = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button39 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox9.SuspendLayout();
+            this.btn_Wayland = new System.Windows.Forms.Button();
+            this.btn_X11 = new System.Windows.Forms.Button();
+            this.pbx_GUI = new System.Windows.Forms.PictureBox();
+            this.gbx_Distros = new System.Windows.Forms.GroupBox();
+            this.btn_VisitDistro = new System.Windows.Forms.Button();
+            this.lbx_RecommendedDistributions = new System.Windows.Forms.ListBox();
+            this.gbx_Experience.SuspendLayout();
+            this.gbx_Purpose.SuspendLayout();
+            this.gbx_Stability.SuspendLayout();
+            this.gbx_Release.SuspendLayout();
+            this.gbx_Interface.SuspendLayout();
+            this.gbx_DE.SuspendLayout();
+            this.gbx_WM.SuspendLayout();
+            this.gbx_DisplayServer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_GUI)).BeginInit();
+            this.gbx_Distros.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -107,195 +107,169 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "WELCOME TO THE LINUX ADVISOR";
             // 
-            // groupBox1
+            // gbx_Experience
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 66);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 91);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "WHAT IS YOUR EXPERIENCE LEVEL WITH LINUX?";
+            this.gbx_Experience.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Experience.Controls.Add(this.btn_Accustomed);
+            this.gbx_Experience.Controls.Add(this.btn_Expert);
+            this.gbx_Experience.Controls.Add(this.btn_New);
+            this.gbx_Experience.Controls.Add(this.btn_Advanced);
+            this.gbx_Experience.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_Experience.Location = new System.Drawing.Point(12, 66);
+            this.gbx_Experience.Name = "gbx_Experience";
+            this.gbx_Experience.Size = new System.Drawing.Size(776, 91);
+            this.gbx_Experience.TabIndex = 1;
+            this.gbx_Experience.TabStop = false;
+            this.gbx_Experience.Text = "WHAT IS YOUR EXPERIENCE LEVEL WITH LINUX?";
+            this.gbx_Experience.Enter += new System.EventHandler(this.gbx_Experience_Enter);
             // 
-            // button1
+            // btn_Accustomed
             // 
-            this.button1.BackColor = System.Drawing.Color.Tan;
-            this.button1.Location = new System.Drawing.Point(20, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "NEW";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_Accustomed.BackColor = System.Drawing.Color.Tan;
+            this.btn_Accustomed.Location = new System.Drawing.Point(205, 31);
+            this.btn_Accustomed.Name = "btn_Accustomed";
+            this.btn_Accustomed.Size = new System.Drawing.Size(180, 42);
+            this.btn_Accustomed.TabIndex = 1;
+            this.btn_Accustomed.Text = "ACCUSTOMED";
+            this.btn_Accustomed.UseVisualStyleBackColor = false;
+            this.btn_Accustomed.Click += new System.EventHandler(this.btn_Accustomed_Click);
             // 
-            // button2
+            // btn_Expert
             // 
-            this.button2.BackColor = System.Drawing.Color.Tan;
-            this.button2.Location = new System.Drawing.Point(205, 31);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 42);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "ACCUSTOMED";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Expert.BackColor = System.Drawing.Color.Tan;
+            this.btn_Expert.Location = new System.Drawing.Point(577, 31);
+            this.btn_Expert.Name = "btn_Expert";
+            this.btn_Expert.Size = new System.Drawing.Size(180, 42);
+            this.btn_Expert.TabIndex = 1;
+            this.btn_Expert.Text = "EXPERT";
+            this.btn_Expert.UseVisualStyleBackColor = false;
+            this.btn_Expert.Click += new System.EventHandler(this.btn_Expert_Click);
             // 
-            // button3
+            // btn_New
             // 
-            this.button3.BackColor = System.Drawing.Color.Tan;
-            this.button3.Location = new System.Drawing.Point(577, 31);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(180, 42);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "EXPERT";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_New.BackColor = System.Drawing.Color.Tan;
+            this.btn_New.Location = new System.Drawing.Point(20, 31);
+            this.btn_New.Name = "btn_New";
+            this.btn_New.Size = new System.Drawing.Size(180, 42);
+            this.btn_New.TabIndex = 0;
+            this.btn_New.Text = "NEW";
+            this.btn_New.UseVisualStyleBackColor = false;
+            this.btn_New.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button4
+            // btn_Advanced
             // 
-            this.button4.BackColor = System.Drawing.Color.Tan;
-            this.button4.Location = new System.Drawing.Point(391, 31);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(180, 42);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "ADVANCED";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_Advanced.BackColor = System.Drawing.Color.Tan;
+            this.btn_Advanced.Location = new System.Drawing.Point(391, 31);
+            this.btn_Advanced.Name = "btn_Advanced";
+            this.btn_Advanced.Size = new System.Drawing.Size(180, 42);
+            this.btn_Advanced.TabIndex = 0;
+            this.btn_Advanced.Text = "ADVANCED";
+            this.btn_Advanced.UseVisualStyleBackColor = false;
+            this.btn_Advanced.Click += new System.EventHandler(this.btn_Advanced_Click);
             // 
-            // groupBox2
+            // gbx_Purpose
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Controls.Add(this.button10);
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.button6);
-            this.groupBox2.Controls.Add(this.button7);
-            this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 163);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(776, 141);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "WHAT IS THE PURPOSE OF THE INSTALL?";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.gbx_Purpose.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Purpose.Controls.Add(this.btn_Server);
+            this.gbx_Purpose.Controls.Add(this.btn_HomeServer);
+            this.gbx_Purpose.Controls.Add(this.btn_Work);
+            this.gbx_Purpose.Controls.Add(this.btn_Gaming);
+            this.gbx_Purpose.Controls.Add(this.btn_DailyDriver);
+            this.gbx_Purpose.Controls.Add(this.btn_Education);
+            this.gbx_Purpose.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_Purpose.Location = new System.Drawing.Point(12, 163);
+            this.gbx_Purpose.Name = "gbx_Purpose";
+            this.gbx_Purpose.Size = new System.Drawing.Size(776, 141);
+            this.gbx_Purpose.TabIndex = 2;
+            this.gbx_Purpose.TabStop = false;
+            this.gbx_Purpose.Text = "WHAT IS THE PURPOSE OF THE INSTALL?";
+            this.gbx_Purpose.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // button5
+            // btn_Server
             // 
-            this.button5.BackColor = System.Drawing.Color.Tan;
-            this.button5.Location = new System.Drawing.Point(269, 31);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(242, 42);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "WORK";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_Server.BackColor = System.Drawing.Color.Tan;
+            this.btn_Server.Location = new System.Drawing.Point(515, 79);
+            this.btn_Server.Name = "btn_Server";
+            this.btn_Server.Size = new System.Drawing.Size(242, 42);
+            this.btn_Server.TabIndex = 3;
+            this.btn_Server.Text = "SERVER";
+            this.btn_Server.UseVisualStyleBackColor = false;
+            this.btn_Server.Visible = false;
+            this.btn_Server.Click += new System.EventHandler(this.btn_Server_Click);
             // 
-            // button6
+            // btn_HomeServer
             // 
-            this.button6.BackColor = System.Drawing.Color.Tan;
-            this.button6.Location = new System.Drawing.Point(515, 31);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(242, 42);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "GAMING";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn_HomeServer.BackColor = System.Drawing.Color.Tan;
+            this.btn_HomeServer.Location = new System.Drawing.Point(267, 79);
+            this.btn_HomeServer.Name = "btn_HomeServer";
+            this.btn_HomeServer.Size = new System.Drawing.Size(242, 42);
+            this.btn_HomeServer.TabIndex = 2;
+            this.btn_HomeServer.Text = "HOME SERVER";
+            this.btn_HomeServer.UseVisualStyleBackColor = false;
+            this.btn_HomeServer.Visible = false;
+            this.btn_HomeServer.Click += new System.EventHandler(this.btn_HomeServer_Click);
             // 
-            // button7
+            // btn_Work
             // 
-            this.button7.BackColor = System.Drawing.Color.Tan;
-            this.button7.Location = new System.Drawing.Point(20, 31);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(242, 42);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "DAILY DRIVER";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btn_Work.BackColor = System.Drawing.Color.Tan;
+            this.btn_Work.Location = new System.Drawing.Point(20, 79);
+            this.btn_Work.Name = "btn_Work";
+            this.btn_Work.Size = new System.Drawing.Size(242, 42);
+            this.btn_Work.TabIndex = 1;
+            this.btn_Work.Text = "WORK";
+            this.btn_Work.UseVisualStyleBackColor = false;
+            this.btn_Work.Visible = false;
+            this.btn_Work.Click += new System.EventHandler(this.btn_Work_Click);
             // 
-            // button8
+            // btn_Gaming
             // 
-            this.button8.BackColor = System.Drawing.Color.Tan;
-            this.button8.Location = new System.Drawing.Point(20, 79);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(242, 42);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "EDUCATION";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btn_Gaming.BackColor = System.Drawing.Color.Tan;
+            this.btn_Gaming.Location = new System.Drawing.Point(515, 31);
+            this.btn_Gaming.Name = "btn_Gaming";
+            this.btn_Gaming.Size = new System.Drawing.Size(242, 42);
+            this.btn_Gaming.TabIndex = 1;
+            this.btn_Gaming.Text = "GAMING";
+            this.btn_Gaming.UseVisualStyleBackColor = false;
+            this.btn_Gaming.Click += new System.EventHandler(this.btn_Gaming_Click);
             // 
-            // button9
+            // btn_DailyDriver
             // 
-            this.button9.BackColor = System.Drawing.Color.Tan;
-            this.button9.Location = new System.Drawing.Point(515, 79);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(242, 42);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "SERVER";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btn_DailyDriver.BackColor = System.Drawing.Color.Tan;
+            this.btn_DailyDriver.Location = new System.Drawing.Point(20, 31);
+            this.btn_DailyDriver.Name = "btn_DailyDriver";
+            this.btn_DailyDriver.Size = new System.Drawing.Size(242, 42);
+            this.btn_DailyDriver.TabIndex = 0;
+            this.btn_DailyDriver.Text = "DAILY DRIVER";
+            this.btn_DailyDriver.UseVisualStyleBackColor = false;
+            this.btn_DailyDriver.Click += new System.EventHandler(this.btn_DailyDriver_Click);
             // 
-            // button10
+            // btn_Education
             // 
-            this.button10.BackColor = System.Drawing.Color.Tan;
-            this.button10.Location = new System.Drawing.Point(267, 79);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(242, 42);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "HOME SERVER";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btn_Education.BackColor = System.Drawing.Color.Tan;
+            this.btn_Education.Location = new System.Drawing.Point(268, 31);
+            this.btn_Education.Name = "btn_Education";
+            this.btn_Education.Size = new System.Drawing.Size(242, 42);
+            this.btn_Education.TabIndex = 0;
+            this.btn_Education.Text = "EDUCATION";
+            this.btn_Education.UseVisualStyleBackColor = false;
+            this.btn_Education.Click += new System.EventHandler(this.button8_Click);
             // 
-            // groupBox3
+            // gbx_Stability
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.button11);
-            this.groupBox3.Controls.Add(this.button12);
-            this.groupBox3.Controls.Add(this.button13);
-            this.groupBox3.Controls.Add(this.button14);
-            this.groupBox3.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(12, 546);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(776, 154);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "HOW STABLE DO YOU WANT IT TO BE?";
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Tan;
-            this.button11.Location = new System.Drawing.Point(205, 31);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(180, 42);
-            this.button11.TabIndex = 1;
-            this.button11.Text = "VERY";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Tan;
-            this.button12.Location = new System.Drawing.Point(577, 31);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(180, 42);
-            this.button12.TabIndex = 1;
-            this.button12.Text = "NOT AT ALL";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.Tan;
-            this.button13.Location = new System.Drawing.Point(20, 31);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(180, 42);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "EXTREMELY";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.Tan;
-            this.button14.Location = new System.Drawing.Point(391, 31);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(180, 42);
-            this.button14.TabIndex = 0;
-            this.button14.Text = "USABLE";
-            this.button14.UseVisualStyleBackColor = false;
+            this.gbx_Stability.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Stability.Controls.Add(this.textBox1);
+            this.gbx_Stability.Controls.Add(this.btn_Very);
+            this.gbx_Stability.Controls.Add(this.btn_NotAtAll);
+            this.gbx_Stability.Controls.Add(this.btn_Extremely);
+            this.gbx_Stability.Controls.Add(this.btn_Usable);
+            this.gbx_Stability.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_Stability.Location = new System.Drawing.Point(12, 546);
+            this.gbx_Stability.Name = "gbx_Stability";
+            this.gbx_Stability.Size = new System.Drawing.Size(776, 154);
+            this.gbx_Stability.TabIndex = 3;
+            this.gbx_Stability.TabStop = false;
+            this.gbx_Stability.Text = "HOW STABLE DO YOU WANT IT TO BE?";
+            this.gbx_Stability.Enter += new System.EventHandler(this.gbx_Stability_Enter);
             // 
             // textBox1
             // 
@@ -309,40 +283,66 @@
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
-            // groupBox4
+            // btn_Very
             // 
-            this.groupBox4.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.button15);
-            this.groupBox4.Controls.Add(this.button17);
-            this.groupBox4.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(12, 310);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(776, 230);
-            this.groupBox4.TabIndex = 4;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "DO YOU WANT A ROLLING OR SEASONAL RELEASE?";
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
+            this.btn_Very.BackColor = System.Drawing.Color.Tan;
+            this.btn_Very.Location = new System.Drawing.Point(205, 31);
+            this.btn_Very.Name = "btn_Very";
+            this.btn_Very.Size = new System.Drawing.Size(180, 42);
+            this.btn_Very.TabIndex = 1;
+            this.btn_Very.Text = "VERY";
+            this.btn_Very.UseVisualStyleBackColor = false;
+            this.btn_Very.Click += new System.EventHandler(this.btn_Very_Click);
             // 
-            // button15
+            // btn_NotAtAll
             // 
-            this.button15.BackColor = System.Drawing.Color.Tan;
-            this.button15.Location = new System.Drawing.Point(391, 31);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(366, 42);
-            this.button15.TabIndex = 1;
-            this.button15.Text = "ROLLING RELEASE";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btn_NotAtAll.BackColor = System.Drawing.Color.Tan;
+            this.btn_NotAtAll.Location = new System.Drawing.Point(577, 31);
+            this.btn_NotAtAll.Name = "btn_NotAtAll";
+            this.btn_NotAtAll.Size = new System.Drawing.Size(180, 42);
+            this.btn_NotAtAll.TabIndex = 1;
+            this.btn_NotAtAll.Text = "NOT AT ALL";
+            this.btn_NotAtAll.UseVisualStyleBackColor = false;
+            this.btn_NotAtAll.Visible = false;
+            this.btn_NotAtAll.Click += new System.EventHandler(this.btn_NotAtAll_Click);
             // 
-            // button17
+            // btn_Extremely
             // 
-            this.button17.BackColor = System.Drawing.Color.Tan;
-            this.button17.Location = new System.Drawing.Point(19, 31);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(366, 42);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "SEASONAL RELEASE";
-            this.button17.UseVisualStyleBackColor = false;
+            this.btn_Extremely.BackColor = System.Drawing.Color.Tan;
+            this.btn_Extremely.Location = new System.Drawing.Point(20, 31);
+            this.btn_Extremely.Name = "btn_Extremely";
+            this.btn_Extremely.Size = new System.Drawing.Size(180, 42);
+            this.btn_Extremely.TabIndex = 0;
+            this.btn_Extremely.Text = "EXTREMELY";
+            this.btn_Extremely.UseVisualStyleBackColor = false;
+            this.btn_Extremely.Click += new System.EventHandler(this.btn_Extremely_Click);
+            // 
+            // btn_Usable
+            // 
+            this.btn_Usable.BackColor = System.Drawing.Color.Tan;
+            this.btn_Usable.Location = new System.Drawing.Point(391, 31);
+            this.btn_Usable.Name = "btn_Usable";
+            this.btn_Usable.Size = new System.Drawing.Size(180, 42);
+            this.btn_Usable.TabIndex = 0;
+            this.btn_Usable.Text = "USABLE";
+            this.btn_Usable.UseVisualStyleBackColor = false;
+            this.btn_Usable.Visible = false;
+            this.btn_Usable.Click += new System.EventHandler(this.btn_Usable_Click);
+            // 
+            // gbx_Release
+            // 
+            this.gbx_Release.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Release.Controls.Add(this.textBox2);
+            this.gbx_Release.Controls.Add(this.btn_RollingRelease);
+            this.gbx_Release.Controls.Add(this.btn_SeasonalRelease);
+            this.gbx_Release.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_Release.Location = new System.Drawing.Point(12, 310);
+            this.gbx_Release.Name = "gbx_Release";
+            this.gbx_Release.Size = new System.Drawing.Size(776, 230);
+            this.gbx_Release.TabIndex = 4;
+            this.gbx_Release.TabStop = false;
+            this.gbx_Release.Text = "DO YOU WANT A ROLLING OR SEASONAL RELEASE?";
+            this.gbx_Release.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // textBox2
             // 
@@ -356,20 +356,43 @@
             this.textBox2.TabIndex = 4;
             this.textBox2.Text = resources.GetString("textBox2.Text");
             // 
-            // groupBox6
+            // btn_RollingRelease
             // 
-            this.groupBox6.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox6.Controls.Add(this.textBox3);
-            this.groupBox6.Controls.Add(this.button18);
-            this.groupBox6.Controls.Add(this.button20);
-            this.groupBox6.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(12, 706);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(776, 187);
-            this.groupBox6.TabIndex = 6;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "WHICH USER INTERFACE DO YOU PREFER?";
-            this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
+            this.btn_RollingRelease.BackColor = System.Drawing.Color.Tan;
+            this.btn_RollingRelease.Location = new System.Drawing.Point(391, 31);
+            this.btn_RollingRelease.Name = "btn_RollingRelease";
+            this.btn_RollingRelease.Size = new System.Drawing.Size(366, 42);
+            this.btn_RollingRelease.TabIndex = 1;
+            this.btn_RollingRelease.Text = "ROLLING RELEASE";
+            this.btn_RollingRelease.UseVisualStyleBackColor = false;
+            this.btn_RollingRelease.Visible = false;
+            this.btn_RollingRelease.Click += new System.EventHandler(this.btn_RollingRelease_Click);
+            // 
+            // btn_SeasonalRelease
+            // 
+            this.btn_SeasonalRelease.BackColor = System.Drawing.Color.Tan;
+            this.btn_SeasonalRelease.Location = new System.Drawing.Point(19, 31);
+            this.btn_SeasonalRelease.Name = "btn_SeasonalRelease";
+            this.btn_SeasonalRelease.Size = new System.Drawing.Size(366, 42);
+            this.btn_SeasonalRelease.TabIndex = 0;
+            this.btn_SeasonalRelease.Text = "SEASONAL RELEASE";
+            this.btn_SeasonalRelease.UseVisualStyleBackColor = false;
+            this.btn_SeasonalRelease.Click += new System.EventHandler(this.btn_SeasonalRelease_Click);
+            // 
+            // gbx_Interface
+            // 
+            this.gbx_Interface.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Interface.Controls.Add(this.textBox3);
+            this.gbx_Interface.Controls.Add(this.btn_WM);
+            this.gbx_Interface.Controls.Add(this.btn_DE);
+            this.gbx_Interface.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_Interface.Location = new System.Drawing.Point(12, 706);
+            this.gbx_Interface.Name = "gbx_Interface";
+            this.gbx_Interface.Size = new System.Drawing.Size(776, 187);
+            this.gbx_Interface.TabIndex = 6;
+            this.gbx_Interface.TabStop = false;
+            this.gbx_Interface.Text = "WHICH USER INTERFACE DO YOU PREFER?";
+            this.gbx_Interface.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
             // textBox3
             // 
@@ -383,200 +406,286 @@
             this.textBox3.TabIndex = 4;
             this.textBox3.Text = resources.GetString("textBox3.Text");
             // 
-            // button18
+            // btn_WM
             // 
-            this.button18.BackColor = System.Drawing.Color.Tan;
-            this.button18.Location = new System.Drawing.Point(391, 31);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(366, 42);
-            this.button18.TabIndex = 1;
-            this.button18.Text = "WINDOW MANAGER";
-            this.button18.UseVisualStyleBackColor = false;
+            this.btn_WM.BackColor = System.Drawing.Color.Tan;
+            this.btn_WM.Location = new System.Drawing.Point(391, 31);
+            this.btn_WM.Name = "btn_WM";
+            this.btn_WM.Size = new System.Drawing.Size(366, 42);
+            this.btn_WM.TabIndex = 1;
+            this.btn_WM.Text = "WINDOW MANAGER";
+            this.btn_WM.UseVisualStyleBackColor = false;
+            this.btn_WM.Visible = false;
+            this.btn_WM.Click += new System.EventHandler(this.btn_WM_Click);
             // 
-            // button20
+            // btn_DE
             // 
-            this.button20.BackColor = System.Drawing.Color.Tan;
-            this.button20.Location = new System.Drawing.Point(19, 31);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(366, 42);
-            this.button20.TabIndex = 0;
-            this.button20.Text = "DESKTOP ENVIRONMENT";
-            this.button20.UseVisualStyleBackColor = false;
+            this.btn_DE.BackColor = System.Drawing.Color.Tan;
+            this.btn_DE.Location = new System.Drawing.Point(19, 31);
+            this.btn_DE.Name = "btn_DE";
+            this.btn_DE.Size = new System.Drawing.Size(366, 42);
+            this.btn_DE.TabIndex = 0;
+            this.btn_DE.Text = "DESKTOP ENVIRONMENT";
+            this.btn_DE.UseVisualStyleBackColor = false;
+            this.btn_DE.Click += new System.EventHandler(this.btn_DE_Click);
             // 
-            // groupBox5
+            // gbx_DE
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox5.Controls.Add(this.button36);
-            this.groupBox5.Controls.Add(this.groupBox7);
-            this.groupBox5.Controls.Add(this.button37);
-            this.groupBox5.Controls.Add(this.button38);
-            this.groupBox5.Controls.Add(this.button16);
-            this.groupBox5.Controls.Add(this.button19);
-            this.groupBox5.Controls.Add(this.button21);
-            this.groupBox5.Controls.Add(this.button22);
-            this.groupBox5.Controls.Add(this.button23);
-            this.groupBox5.Controls.Add(this.button24);
-            this.groupBox5.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(794, 13);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(776, 187);
-            this.groupBox5.TabIndex = 9;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "TOP DESKTOP ENVIRONMENTS!";
+            this.gbx_DE.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_DE.Controls.Add(this.btn_Lxde);
+            this.gbx_DE.Controls.Add(this.btn_Enlightenment);
+            this.gbx_DE.Controls.Add(this.btn_Deepin);
+            this.gbx_DE.Controls.Add(this.btn_Lxqt);
+            this.gbx_DE.Controls.Add(this.btn_Cinnamon);
+            this.gbx_DE.Controls.Add(this.btn_Xfce);
+            this.gbx_DE.Controls.Add(this.btn_Mate);
+            this.gbx_DE.Controls.Add(this.btn_Gnome);
+            this.gbx_DE.Controls.Add(this.btn_KDEPlasma);
+            this.gbx_DE.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_DE.Location = new System.Drawing.Point(793, 14);
+            this.gbx_DE.Name = "gbx_DE";
+            this.gbx_DE.Size = new System.Drawing.Size(607, 187);
+            this.gbx_DE.TabIndex = 9;
+            this.gbx_DE.TabStop = false;
+            this.gbx_DE.Text = "TOP DESKTOP ENVIRONMENTS!";
+            this.gbx_DE.Visible = false;
+            this.gbx_DE.Enter += new System.EventHandler(this.gbx_DE_Enter);
             // 
-            // button16
+            // btn_Lxde
             // 
-            this.button16.BackColor = System.Drawing.Color.Tan;
-            this.button16.Location = new System.Drawing.Point(515, 79);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(242, 42);
-            this.button16.TabIndex = 3;
-            this.button16.Text = "LXQT";
-            this.button16.UseVisualStyleBackColor = false;
+            this.btn_Lxde.BackColor = System.Drawing.Color.Tan;
+            this.btn_Lxde.Location = new System.Drawing.Point(211, 127);
+            this.btn_Lxde.Name = "btn_Lxde";
+            this.btn_Lxde.Size = new System.Drawing.Size(184, 42);
+            this.btn_Lxde.TabIndex = 6;
+            this.btn_Lxde.Text = "LXDE";
+            this.btn_Lxde.UseVisualStyleBackColor = false;
+            this.btn_Lxde.Click += new System.EventHandler(this.btn_Lxde_Click);
             // 
-            // button19
+            // btn_Enlightenment
             // 
-            this.button19.BackColor = System.Drawing.Color.Tan;
-            this.button19.Location = new System.Drawing.Point(267, 79);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(242, 42);
-            this.button19.TabIndex = 2;
-            this.button19.Text = "CINNAMON";
-            this.button19.UseVisualStyleBackColor = false;
+            this.btn_Enlightenment.BackColor = System.Drawing.Color.Tan;
+            this.btn_Enlightenment.Location = new System.Drawing.Point(403, 127);
+            this.btn_Enlightenment.Name = "btn_Enlightenment";
+            this.btn_Enlightenment.Size = new System.Drawing.Size(184, 42);
+            this.btn_Enlightenment.TabIndex = 5;
+            this.btn_Enlightenment.Text = "ENLIGHTENMENT";
+            this.btn_Enlightenment.UseVisualStyleBackColor = false;
+            this.btn_Enlightenment.Click += new System.EventHandler(this.btn_Enlightenment_Click);
             // 
-            // button21
+            // btn_Deepin
             // 
-            this.button21.BackColor = System.Drawing.Color.Tan;
-            this.button21.Location = new System.Drawing.Point(269, 31);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(242, 42);
-            this.button21.TabIndex = 1;
-            this.button21.Text = "XFCE";
-            this.button21.UseVisualStyleBackColor = false;
+            this.btn_Deepin.BackColor = System.Drawing.Color.Tan;
+            this.btn_Deepin.Location = new System.Drawing.Point(20, 127);
+            this.btn_Deepin.Name = "btn_Deepin";
+            this.btn_Deepin.Size = new System.Drawing.Size(185, 42);
+            this.btn_Deepin.TabIndex = 4;
+            this.btn_Deepin.Text = "DEEPIN";
+            this.btn_Deepin.UseVisualStyleBackColor = false;
+            this.btn_Deepin.Click += new System.EventHandler(this.btn_Deepin_Click);
             // 
-            // button22
+            // btn_Lxqt
             // 
-            this.button22.BackColor = System.Drawing.Color.Tan;
-            this.button22.Location = new System.Drawing.Point(515, 31);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(242, 42);
-            this.button22.TabIndex = 1;
-            this.button22.Text = "MATÉ";
-            this.button22.UseVisualStyleBackColor = false;
+            this.btn_Lxqt.BackColor = System.Drawing.Color.Tan;
+            this.btn_Lxqt.Location = new System.Drawing.Point(403, 79);
+            this.btn_Lxqt.Name = "btn_Lxqt";
+            this.btn_Lxqt.Size = new System.Drawing.Size(184, 42);
+            this.btn_Lxqt.TabIndex = 3;
+            this.btn_Lxqt.Text = "LXQT";
+            this.btn_Lxqt.UseVisualStyleBackColor = false;
+            this.btn_Lxqt.Click += new System.EventHandler(this.btn_Lxqt_Click);
             // 
-            // button23
+            // btn_Cinnamon
             // 
-            this.button23.BackColor = System.Drawing.Color.Tan;
-            this.button23.Location = new System.Drawing.Point(20, 31);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(242, 42);
-            this.button23.TabIndex = 0;
-            this.button23.Text = "GNOME";
-            this.button23.UseVisualStyleBackColor = false;
+            this.btn_Cinnamon.BackColor = System.Drawing.Color.Tan;
+            this.btn_Cinnamon.Location = new System.Drawing.Point(211, 79);
+            this.btn_Cinnamon.Name = "btn_Cinnamon";
+            this.btn_Cinnamon.Size = new System.Drawing.Size(184, 42);
+            this.btn_Cinnamon.TabIndex = 2;
+            this.btn_Cinnamon.Text = "CINNAMON";
+            this.btn_Cinnamon.UseVisualStyleBackColor = false;
+            this.btn_Cinnamon.Click += new System.EventHandler(this.btn_Cinnamon_Click);
             // 
-            // button24
+            // btn_Xfce
             // 
-            this.button24.BackColor = System.Drawing.Color.Tan;
-            this.button24.Location = new System.Drawing.Point(20, 79);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(242, 42);
-            this.button24.TabIndex = 0;
-            this.button24.Text = "KDE PLASMA";
-            this.button24.UseVisualStyleBackColor = false;
+            this.btn_Xfce.BackColor = System.Drawing.Color.Tan;
+            this.btn_Xfce.Location = new System.Drawing.Point(211, 31);
+            this.btn_Xfce.Name = "btn_Xfce";
+            this.btn_Xfce.Size = new System.Drawing.Size(184, 42);
+            this.btn_Xfce.TabIndex = 1;
+            this.btn_Xfce.Text = "XFCE";
+            this.btn_Xfce.UseVisualStyleBackColor = false;
+            this.btn_Xfce.Click += new System.EventHandler(this.btn_Xfce_Click);
             // 
-            // groupBox7
+            // btn_Mate
             // 
-            this.groupBox7.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox7.Controls.Add(this.button35);
-            this.groupBox7.Controls.Add(this.button34);
-            this.groupBox7.Controls.Add(this.button33);
-            this.groupBox7.Controls.Add(this.button25);
-            this.groupBox7.Controls.Add(this.button26);
-            this.groupBox7.Controls.Add(this.button27);
-            this.groupBox7.Controls.Add(this.button28);
-            this.groupBox7.Controls.Add(this.button29);
-            this.groupBox7.Controls.Add(this.button30);
-            this.groupBox7.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox7.Location = new System.Drawing.Point(57, 79);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(776, 188);
-            this.groupBox7.TabIndex = 10;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "TOP WINDOW MANAGERS!";
+            this.btn_Mate.BackColor = System.Drawing.Color.Tan;
+            this.btn_Mate.Location = new System.Drawing.Point(403, 31);
+            this.btn_Mate.Name = "btn_Mate";
+            this.btn_Mate.Size = new System.Drawing.Size(184, 42);
+            this.btn_Mate.TabIndex = 1;
+            this.btn_Mate.Text = "MATÉ";
+            this.btn_Mate.UseVisualStyleBackColor = false;
+            this.btn_Mate.Click += new System.EventHandler(this.btn_Mate_Click);
             // 
-            // button25
+            // btn_Gnome
             // 
-            this.button25.BackColor = System.Drawing.Color.Tan;
-            this.button25.Location = new System.Drawing.Point(517, 79);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(240, 42);
-            this.button25.TabIndex = 3;
-            this.button25.Text = "XMONAD";
-            this.button25.UseVisualStyleBackColor = false;
+            this.btn_Gnome.BackColor = System.Drawing.Color.Tan;
+            this.btn_Gnome.Location = new System.Drawing.Point(20, 31);
+            this.btn_Gnome.Name = "btn_Gnome";
+            this.btn_Gnome.Size = new System.Drawing.Size(185, 42);
+            this.btn_Gnome.TabIndex = 0;
+            this.btn_Gnome.Text = "GNOME";
+            this.btn_Gnome.UseVisualStyleBackColor = false;
+            this.btn_Gnome.Click += new System.EventHandler(this.btn_Gnome_Click);
             // 
-            // button26
+            // btn_KDEPlasma
             // 
-            this.button26.BackColor = System.Drawing.Color.Tan;
-            this.button26.Location = new System.Drawing.Point(266, 79);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(240, 42);
-            this.button26.TabIndex = 2;
-            this.button26.Text = "WAYFIRE";
-            this.button26.UseVisualStyleBackColor = false;
+            this.btn_KDEPlasma.BackColor = System.Drawing.Color.Tan;
+            this.btn_KDEPlasma.Location = new System.Drawing.Point(20, 79);
+            this.btn_KDEPlasma.Name = "btn_KDEPlasma";
+            this.btn_KDEPlasma.Size = new System.Drawing.Size(185, 42);
+            this.btn_KDEPlasma.TabIndex = 0;
+            this.btn_KDEPlasma.Text = "KDE PLASMA";
+            this.btn_KDEPlasma.UseVisualStyleBackColor = false;
+            this.btn_KDEPlasma.Click += new System.EventHandler(this.btn_KDEPlasma_Click);
             // 
-            // button27
+            // gbx_WM
             // 
-            this.button27.BackColor = System.Drawing.Color.Tan;
-            this.button27.Location = new System.Drawing.Point(268, 31);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(240, 42);
-            this.button27.TabIndex = 1;
-            this.button27.Text = "HYPRLAND";
-            this.button27.UseVisualStyleBackColor = false;
+            this.gbx_WM.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_WM.Controls.Add(this.btn_Awesome);
+            this.gbx_WM.Controls.Add(this.btn_Herbstluftwm);
+            this.gbx_WM.Controls.Add(this.btn_Qtile);
+            this.gbx_WM.Controls.Add(this.btn_Xmonad);
+            this.gbx_WM.Controls.Add(this.btn_Wayfire);
+            this.gbx_WM.Controls.Add(this.btn_Hyprland);
+            this.gbx_WM.Controls.Add(this.btn_Bspwm);
+            this.gbx_WM.Controls.Add(this.btn_i3);
+            this.gbx_WM.Controls.Add(this.btn_Sway);
+            this.gbx_WM.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_WM.Location = new System.Drawing.Point(793, 14);
+            this.gbx_WM.Name = "gbx_WM";
+            this.gbx_WM.Size = new System.Drawing.Size(607, 188);
+            this.gbx_WM.TabIndex = 10;
+            this.gbx_WM.TabStop = false;
+            this.gbx_WM.Text = "TOP WINDOW MANAGERS!";
+            this.gbx_WM.Visible = false;
+            this.gbx_WM.Enter += new System.EventHandler(this.gbx_WM_Enter);
             // 
-            // button28
+            // btn_Awesome
             // 
-            this.button28.BackColor = System.Drawing.Color.Tan;
-            this.button28.Location = new System.Drawing.Point(517, 31);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(240, 42);
-            this.button28.TabIndex = 1;
-            this.button28.Text = "BSPWM";
-            this.button28.UseVisualStyleBackColor = false;
+            this.btn_Awesome.BackColor = System.Drawing.Color.Tan;
+            this.btn_Awesome.Location = new System.Drawing.Point(401, 127);
+            this.btn_Awesome.Name = "btn_Awesome";
+            this.btn_Awesome.Size = new System.Drawing.Size(186, 42);
+            this.btn_Awesome.TabIndex = 6;
+            this.btn_Awesome.Text = "AWESOME";
+            this.btn_Awesome.UseVisualStyleBackColor = false;
+            this.btn_Awesome.Click += new System.EventHandler(this.btn_Awesome_Click);
             // 
-            // button29
+            // btn_Herbstluftwm
             // 
-            this.button29.BackColor = System.Drawing.Color.Tan;
-            this.button29.Location = new System.Drawing.Point(18, 31);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(240, 42);
-            this.button29.TabIndex = 0;
-            this.button29.Text = "i3";
-            this.button29.UseVisualStyleBackColor = false;
+            this.btn_Herbstluftwm.BackColor = System.Drawing.Color.Tan;
+            this.btn_Herbstluftwm.Location = new System.Drawing.Point(21, 127);
+            this.btn_Herbstluftwm.Name = "btn_Herbstluftwm";
+            this.btn_Herbstluftwm.Size = new System.Drawing.Size(184, 42);
+            this.btn_Herbstluftwm.TabIndex = 5;
+            this.btn_Herbstluftwm.Text = "HERBSTLUFTWM";
+            this.btn_Herbstluftwm.UseVisualStyleBackColor = false;
+            this.btn_Herbstluftwm.Click += new System.EventHandler(this.btn_Herbstluftwm_Click);
             // 
-            // button30
+            // btn_Qtile
             // 
-            this.button30.BackColor = System.Drawing.Color.Tan;
-            this.button30.Location = new System.Drawing.Point(18, 79);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(240, 42);
-            this.button30.TabIndex = 0;
-            this.button30.Text = "SWAY";
-            this.button30.UseVisualStyleBackColor = false;
+            this.btn_Qtile.BackColor = System.Drawing.Color.Tan;
+            this.btn_Qtile.Location = new System.Drawing.Point(211, 127);
+            this.btn_Qtile.Name = "btn_Qtile";
+            this.btn_Qtile.Size = new System.Drawing.Size(184, 42);
+            this.btn_Qtile.TabIndex = 4;
+            this.btn_Qtile.Text = "QTILE";
+            this.btn_Qtile.UseVisualStyleBackColor = false;
+            this.btn_Qtile.Click += new System.EventHandler(this.btn_Qtile_Click);
             // 
-            // groupBox8
+            // btn_Xmonad
             // 
-            this.groupBox8.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox8.Controls.Add(this.textBox4);
-            this.groupBox8.Controls.Add(this.button31);
-            this.groupBox8.Controls.Add(this.button32);
-            this.groupBox8.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox8.Location = new System.Drawing.Point(795, 663);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(776, 230);
-            this.groupBox8.TabIndex = 11;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "DISTROBUTION FILTER . . . DISPLAY SERVERS . . . ";
+            this.btn_Xmonad.BackColor = System.Drawing.Color.Tan;
+            this.btn_Xmonad.Location = new System.Drawing.Point(403, 79);
+            this.btn_Xmonad.Name = "btn_Xmonad";
+            this.btn_Xmonad.Size = new System.Drawing.Size(184, 42);
+            this.btn_Xmonad.TabIndex = 3;
+            this.btn_Xmonad.Text = "XMONAD";
+            this.btn_Xmonad.UseVisualStyleBackColor = false;
+            this.btn_Xmonad.Click += new System.EventHandler(this.btn_Xmonad_Click);
+            // 
+            // btn_Wayfire
+            // 
+            this.btn_Wayfire.BackColor = System.Drawing.Color.Tan;
+            this.btn_Wayfire.Location = new System.Drawing.Point(211, 79);
+            this.btn_Wayfire.Name = "btn_Wayfire";
+            this.btn_Wayfire.Size = new System.Drawing.Size(184, 42);
+            this.btn_Wayfire.TabIndex = 2;
+            this.btn_Wayfire.Text = "WAYFIRE";
+            this.btn_Wayfire.UseVisualStyleBackColor = false;
+            this.btn_Wayfire.Click += new System.EventHandler(this.btn_Wayfire_Click);
+            // 
+            // btn_Hyprland
+            // 
+            this.btn_Hyprland.BackColor = System.Drawing.Color.Tan;
+            this.btn_Hyprland.Location = new System.Drawing.Point(211, 31);
+            this.btn_Hyprland.Name = "btn_Hyprland";
+            this.btn_Hyprland.Size = new System.Drawing.Size(184, 42);
+            this.btn_Hyprland.TabIndex = 1;
+            this.btn_Hyprland.Text = "HYPRLAND";
+            this.btn_Hyprland.UseVisualStyleBackColor = false;
+            this.btn_Hyprland.Click += new System.EventHandler(this.btn_Hyprland_Click);
+            // 
+            // btn_Bspwm
+            // 
+            this.btn_Bspwm.BackColor = System.Drawing.Color.Tan;
+            this.btn_Bspwm.Location = new System.Drawing.Point(403, 31);
+            this.btn_Bspwm.Name = "btn_Bspwm";
+            this.btn_Bspwm.Size = new System.Drawing.Size(184, 42);
+            this.btn_Bspwm.TabIndex = 1;
+            this.btn_Bspwm.Text = "BSPWM";
+            this.btn_Bspwm.UseVisualStyleBackColor = false;
+            this.btn_Bspwm.Click += new System.EventHandler(this.btn_Bspwm_Click);
+            // 
+            // btn_i3
+            // 
+            this.btn_i3.BackColor = System.Drawing.Color.Tan;
+            this.btn_i3.Location = new System.Drawing.Point(21, 31);
+            this.btn_i3.Name = "btn_i3";
+            this.btn_i3.Size = new System.Drawing.Size(184, 42);
+            this.btn_i3.TabIndex = 0;
+            this.btn_i3.Text = "i3";
+            this.btn_i3.UseVisualStyleBackColor = false;
+            this.btn_i3.Click += new System.EventHandler(this.btn_i3_Click);
+            // 
+            // btn_Sway
+            // 
+            this.btn_Sway.BackColor = System.Drawing.Color.Tan;
+            this.btn_Sway.Location = new System.Drawing.Point(21, 79);
+            this.btn_Sway.Name = "btn_Sway";
+            this.btn_Sway.Size = new System.Drawing.Size(184, 42);
+            this.btn_Sway.TabIndex = 0;
+            this.btn_Sway.Text = "SWAY";
+            this.btn_Sway.UseVisualStyleBackColor = false;
+            this.btn_Sway.Click += new System.EventHandler(this.btn_Sway_Click);
+            // 
+            // gbx_DisplayServer
+            // 
+            this.gbx_DisplayServer.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_DisplayServer.Controls.Add(this.textBox4);
+            this.gbx_DisplayServer.Controls.Add(this.btn_Wayland);
+            this.gbx_DisplayServer.Controls.Add(this.btn_X11);
+            this.gbx_DisplayServer.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_DisplayServer.Location = new System.Drawing.Point(795, 614);
+            this.gbx_DisplayServer.Name = "gbx_DisplayServer";
+            this.gbx_DisplayServer.Size = new System.Drawing.Size(606, 279);
+            this.gbx_DisplayServer.TabIndex = 11;
+            this.gbx_DisplayServer.TabStop = false;
+            this.gbx_DisplayServer.Text = "DISTROBUTION FILTER . . . DISPLAY SERVERS . . . ";
+            this.gbx_DisplayServer.Visible = false;
+            this.gbx_DisplayServer.Enter += new System.EventHandler(this.gbx_DisplayServer_Enter);
             // 
             // textBox4
             // 
@@ -586,162 +695,109 @@
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(737, 135);
+            this.textBox4.Size = new System.Drawing.Size(566, 184);
             this.textBox4.TabIndex = 4;
             this.textBox4.Text = resources.GetString("textBox4.Text");
             // 
-            // button31
+            // btn_Wayland
             // 
-            this.button31.BackColor = System.Drawing.Color.Tan;
-            this.button31.Location = new System.Drawing.Point(391, 31);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(366, 42);
-            this.button31.TabIndex = 1;
-            this.button31.Text = "WAYLAND";
-            this.button31.UseVisualStyleBackColor = false;
+            this.btn_Wayland.BackColor = System.Drawing.Color.Tan;
+            this.btn_Wayland.Location = new System.Drawing.Point(210, 31);
+            this.btn_Wayland.Name = "btn_Wayland";
+            this.btn_Wayland.Size = new System.Drawing.Size(184, 42);
+            this.btn_Wayland.TabIndex = 1;
+            this.btn_Wayland.Text = "WAYLAND";
+            this.btn_Wayland.UseVisualStyleBackColor = false;
+            this.btn_Wayland.Click += new System.EventHandler(this.btn_Wayland_Click);
             // 
-            // button32
+            // btn_X11
             // 
-            this.button32.BackColor = System.Drawing.Color.Tan;
-            this.button32.Location = new System.Drawing.Point(19, 31);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(366, 42);
-            this.button32.TabIndex = 0;
-            this.button32.Text = "X11";
-            this.button32.UseVisualStyleBackColor = false;
+            this.btn_X11.BackColor = System.Drawing.Color.Tan;
+            this.btn_X11.Location = new System.Drawing.Point(19, 31);
+            this.btn_X11.Name = "btn_X11";
+            this.btn_X11.Size = new System.Drawing.Size(185, 42);
+            this.btn_X11.TabIndex = 0;
+            this.btn_X11.Text = "X11";
+            this.btn_X11.UseVisualStyleBackColor = false;
+            this.btn_X11.Click += new System.EventHandler(this.btn_X11_Click);
             // 
-            // button33
+            // pbx_GUI
             // 
-            this.button33.BackColor = System.Drawing.Color.Tan;
-            this.button33.Location = new System.Drawing.Point(266, 127);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(240, 42);
-            this.button33.TabIndex = 4;
-            this.button33.Text = "QTILE";
-            this.button33.UseVisualStyleBackColor = false;
+            this.pbx_GUI.Location = new System.Drawing.Point(794, 207);
+            this.pbx_GUI.Name = "pbx_GUI";
+            this.pbx_GUI.Size = new System.Drawing.Size(606, 402);
+            this.pbx_GUI.TabIndex = 12;
+            this.pbx_GUI.TabStop = false;
+            this.pbx_GUI.Click += new System.EventHandler(this.pbx_GUI_Click);
             // 
-            // button34
+            // gbx_Distros
             // 
-            this.button34.BackColor = System.Drawing.Color.Tan;
-            this.button34.Location = new System.Drawing.Point(18, 127);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(240, 42);
-            this.button34.TabIndex = 5;
-            this.button34.Text = "HERBSTLUFTWM";
-            this.button34.UseVisualStyleBackColor = false;
+            this.gbx_Distros.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Distros.Controls.Add(this.btn_VisitDistro);
+            this.gbx_Distros.Controls.Add(this.lbx_RecommendedDistributions);
+            this.gbx_Distros.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_Distros.Location = new System.Drawing.Point(1408, 14);
+            this.gbx_Distros.Name = "gbx_Distros";
+            this.gbx_Distros.Size = new System.Drawing.Size(321, 880);
+            this.gbx_Distros.TabIndex = 13;
+            this.gbx_Distros.TabStop = false;
+            this.gbx_Distros.Text = "RECOMMENDED DISTROS";
+            this.gbx_Distros.Enter += new System.EventHandler(this.gbx_Distros_Enter);
             // 
-            // button35
+            // btn_VisitDistro
             // 
-            this.button35.BackColor = System.Drawing.Color.Tan;
-            this.button35.Location = new System.Drawing.Point(515, 127);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(242, 42);
-            this.button35.TabIndex = 6;
-            this.button35.Text = "AWESOME";
-            this.button35.UseVisualStyleBackColor = false;
+            this.btn_VisitDistro.BackColor = System.Drawing.Color.Tan;
+            this.btn_VisitDistro.Location = new System.Drawing.Point(16, 821);
+            this.btn_VisitDistro.Name = "btn_VisitDistro";
+            this.btn_VisitDistro.Size = new System.Drawing.Size(290, 42);
+            this.btn_VisitDistro.TabIndex = 2;
+            this.btn_VisitDistro.Text = "VISIT DISTRO";
+            this.btn_VisitDistro.UseVisualStyleBackColor = false;
+            this.btn_VisitDistro.Click += new System.EventHandler(this.btn_VisitDistro_Click);
             // 
-            // button36
+            // lbx_RecommendedDistributions
             // 
-            this.button36.BackColor = System.Drawing.Color.Tan;
-            this.button36.Location = new System.Drawing.Point(515, 127);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(242, 42);
-            this.button36.TabIndex = 6;
-            this.button36.Text = "LXDE";
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.Tan;
-            this.button37.Location = new System.Drawing.Point(267, 127);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(242, 42);
-            this.button37.TabIndex = 5;
-            this.button37.Text = "ENLIGHTENMENT";
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.Tan;
-            this.button38.Location = new System.Drawing.Point(20, 127);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(242, 42);
-            this.button38.TabIndex = 4;
-            this.button38.Text = "DEEPIN";
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(795, 207);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(774, 450);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.groupBox9.Controls.Add(this.button39);
-            this.groupBox9.Controls.Add(this.listBox1);
-            this.groupBox9.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox9.Location = new System.Drawing.Point(1576, 13);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(397, 880);
-            this.groupBox9.TabIndex = 13;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "RECOMMENDED DISTROBUTIONS";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(16, 31);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(366, 784);
-            this.listBox1.TabIndex = 0;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.Tan;
-            this.button39.Location = new System.Drawing.Point(16, 821);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(366, 42);
-            this.button39.TabIndex = 2;
-            this.button39.Text = "VISIT DISTRO";
-            this.button39.UseVisualStyleBackColor = false;
+            this.lbx_RecommendedDistributions.FormattingEnabled = true;
+            this.lbx_RecommendedDistributions.ItemHeight = 20;
+            this.lbx_RecommendedDistributions.Location = new System.Drawing.Point(16, 31);
+            this.lbx_RecommendedDistributions.Name = "lbx_RecommendedDistributions";
+            this.lbx_RecommendedDistributions.Size = new System.Drawing.Size(290, 784);
+            this.lbx_RecommendedDistributions.TabIndex = 0;
+            this.lbx_RecommendedDistributions.SelectedIndexChanged += new System.EventHandler(this.lbx_RecommendedDistributions_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1984, 905);
-            this.Controls.Add(this.groupBox9);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.groupBox8);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(1742, 905);
+            this.Controls.Add(this.gbx_Distros);
+            this.Controls.Add(this.gbx_WM);
+            this.Controls.Add(this.pbx_GUI);
+            this.Controls.Add(this.gbx_DisplayServer);
+            this.Controls.Add(this.gbx_DE);
+            this.Controls.Add(this.gbx_Interface);
+            this.Controls.Add(this.gbx_Release);
+            this.Controls.Add(this.gbx_Stability);
+            this.Controls.Add(this.gbx_Purpose);
+            this.Controls.Add(this.gbx_Experience);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "THE LINUX ADVISOR";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox9.ResumeLayout(false);
+            this.gbx_Experience.ResumeLayout(false);
+            this.gbx_Purpose.ResumeLayout(false);
+            this.gbx_Stability.ResumeLayout(false);
+            this.gbx_Stability.PerformLayout();
+            this.gbx_Release.ResumeLayout(false);
+            this.gbx_Release.PerformLayout();
+            this.gbx_Interface.ResumeLayout(false);
+            this.gbx_Interface.PerformLayout();
+            this.gbx_DE.ResumeLayout(false);
+            this.gbx_WM.ResumeLayout(false);
+            this.gbx_DisplayServer.ResumeLayout(false);
+            this.gbx_DisplayServer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbx_GUI)).EndInit();
+            this.gbx_Distros.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -750,60 +806,60 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.GroupBox gbx_Experience;
+        private System.Windows.Forms.Button btn_Accustomed;
+        private System.Windows.Forms.Button btn_Expert;
+        private System.Windows.Forms.Button btn_New;
+        private System.Windows.Forms.Button btn_Advanced;
+        private System.Windows.Forms.GroupBox gbx_Purpose;
+        private System.Windows.Forms.Button btn_Server;
+        private System.Windows.Forms.Button btn_HomeServer;
+        private System.Windows.Forms.Button btn_Work;
+        private System.Windows.Forms.Button btn_Gaming;
+        private System.Windows.Forms.Button btn_DailyDriver;
+        private System.Windows.Forms.Button btn_Education;
+        private System.Windows.Forms.GroupBox gbx_Stability;
+        private System.Windows.Forms.Button btn_Very;
+        private System.Windows.Forms.Button btn_NotAtAll;
+        private System.Windows.Forms.Button btn_Extremely;
+        private System.Windows.Forms.Button btn_Usable;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.GroupBox gbx_Release;
+        private System.Windows.Forms.Button btn_RollingRelease;
+        private System.Windows.Forms.Button btn_SeasonalRelease;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox gbx_Interface;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Button btn_WM;
+        private System.Windows.Forms.Button btn_DE;
+        private System.Windows.Forms.GroupBox gbx_DE;
+        private System.Windows.Forms.Button btn_Lxqt;
+        private System.Windows.Forms.Button btn_Cinnamon;
+        private System.Windows.Forms.Button btn_Xfce;
+        private System.Windows.Forms.Button btn_Mate;
+        private System.Windows.Forms.Button btn_Gnome;
+        private System.Windows.Forms.Button btn_KDEPlasma;
+        private System.Windows.Forms.GroupBox gbx_WM;
+        private System.Windows.Forms.Button btn_Xmonad;
+        private System.Windows.Forms.Button btn_Wayfire;
+        private System.Windows.Forms.Button btn_Hyprland;
+        private System.Windows.Forms.Button btn_Bspwm;
+        private System.Windows.Forms.Button btn_i3;
+        private System.Windows.Forms.Button btn_Sway;
+        private System.Windows.Forms.GroupBox gbx_DisplayServer;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btn_Wayland;
+        private System.Windows.Forms.Button btn_X11;
+        private System.Windows.Forms.Button btn_Awesome;
+        private System.Windows.Forms.Button btn_Herbstluftwm;
+        private System.Windows.Forms.Button btn_Qtile;
+        private System.Windows.Forms.Button btn_Lxde;
+        private System.Windows.Forms.Button btn_Enlightenment;
+        private System.Windows.Forms.Button btn_Deepin;
+        private System.Windows.Forms.PictureBox pbx_GUI;
+        private System.Windows.Forms.GroupBox gbx_Distros;
+        private System.Windows.Forms.Button btn_VisitDistro;
+        private System.Windows.Forms.ListBox lbx_RecommendedDistributions;
     }
 }
 
