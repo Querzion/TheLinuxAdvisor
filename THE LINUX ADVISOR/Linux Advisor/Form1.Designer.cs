@@ -56,56 +56,52 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.btn_WM = new System.Windows.Forms.Button();
             this.btn_DE = new System.Windows.Forms.Button();
-            this.gbx_DE = new System.Windows.Forms.GroupBox();
-            this.btn_Lxde = new System.Windows.Forms.Button();
-            this.btn_Enlightenment = new System.Windows.Forms.Button();
-            this.btn_Deepin = new System.Windows.Forms.Button();
-            this.btn_Lxqt = new System.Windows.Forms.Button();
-            this.btn_Cinnamon = new System.Windows.Forms.Button();
-            this.btn_Xfce = new System.Windows.Forms.Button();
-            this.btn_Mate = new System.Windows.Forms.Button();
-            this.btn_Gnome = new System.Windows.Forms.Button();
-            this.btn_KDEPlasma = new System.Windows.Forms.Button();
-            this.gbx_WM = new System.Windows.Forms.GroupBox();
-            this.btn_Awesome = new System.Windows.Forms.Button();
-            this.btn_Herbstluftwm = new System.Windows.Forms.Button();
-            this.btn_Qtile = new System.Windows.Forms.Button();
-            this.btn_Xmonad = new System.Windows.Forms.Button();
-            this.btn_Wayfire = new System.Windows.Forms.Button();
-            this.btn_Hyprland = new System.Windows.Forms.Button();
-            this.btn_Bspwm = new System.Windows.Forms.Button();
-            this.btn_i3 = new System.Windows.Forms.Button();
-            this.btn_Sway = new System.Windows.Forms.Button();
             this.gbx_DisplayServer = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.btn_Wayland = new System.Windows.Forms.Button();
             this.btn_X11 = new System.Windows.Forms.Button();
             this.pbx_GUI = new System.Windows.Forms.PictureBox();
             this.gbx_Distros = new System.Windows.Forms.GroupBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.btn_VisitDistro = new System.Windows.Forms.Button();
             this.lbx_RecommendedDistributions = new System.Windows.Forms.ListBox();
+            this.btn_Ventoy = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.wb_Youtube = new System.Windows.Forms.WebBrowser();
+            this.txtVideoLink = new System.Windows.Forms.TextBox();
+            this.lbl_VideoLink = new System.Windows.Forms.Label();
+            this.gbx_WM_Drop = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btn_WM_Check = new System.Windows.Forms.Button();
+            this.gbx_DE_Drop = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btn_DE_Check = new System.Windows.Forms.Button();
             this.gbx_Experience.SuspendLayout();
             this.gbx_Purpose.SuspendLayout();
             this.gbx_Stability.SuspendLayout();
             this.gbx_Release.SuspendLayout();
             this.gbx_Interface.SuspendLayout();
-            this.gbx_DE.SuspendLayout();
-            this.gbx_WM.SuspendLayout();
             this.gbx_DisplayServer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_GUI)).BeginInit();
             this.gbx_Distros.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.gbx_WM_Drop.SuspendLayout();
+            this.gbx_DE_Drop.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Impact", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(103, 13);
+            this.label1.Location = new System.Drawing.Point(266, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(574, 39);
+            this.label1.Size = new System.Drawing.Size(913, 75);
             this.label1.TabIndex = 0;
-            this.label1.Text = "WELCOME TO THE LINUX ADVISOR";
+            this.label1.Text = "WELCOME TO THE GNU/LINUX ADVISOR";
             // 
             // gbx_Experience
             // 
@@ -115,7 +111,7 @@
             this.gbx_Experience.Controls.Add(this.btn_New);
             this.gbx_Experience.Controls.Add(this.btn_Advanced);
             this.gbx_Experience.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_Experience.Location = new System.Drawing.Point(12, 66);
+            this.gbx_Experience.Location = new System.Drawing.Point(11, 110);
             this.gbx_Experience.Name = "gbx_Experience";
             this.gbx_Experience.Size = new System.Drawing.Size(776, 91);
             this.gbx_Experience.TabIndex = 1;
@@ -177,12 +173,13 @@
             this.gbx_Purpose.Controls.Add(this.btn_DailyDriver);
             this.gbx_Purpose.Controls.Add(this.btn_Education);
             this.gbx_Purpose.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_Purpose.Location = new System.Drawing.Point(12, 163);
+            this.gbx_Purpose.Location = new System.Drawing.Point(12, 207);
             this.gbx_Purpose.Name = "gbx_Purpose";
             this.gbx_Purpose.Size = new System.Drawing.Size(776, 141);
             this.gbx_Purpose.TabIndex = 2;
             this.gbx_Purpose.TabStop = false;
             this.gbx_Purpose.Text = "WHAT IS THE PURPOSE OF THE INSTALL?";
+            this.gbx_Purpose.Visible = false;
             this.gbx_Purpose.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btn_Server
@@ -263,12 +260,13 @@
             this.gbx_Stability.Controls.Add(this.btn_Extremely);
             this.gbx_Stability.Controls.Add(this.btn_Usable);
             this.gbx_Stability.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_Stability.Location = new System.Drawing.Point(12, 546);
+            this.gbx_Stability.Location = new System.Drawing.Point(12, 589);
             this.gbx_Stability.Name = "gbx_Stability";
             this.gbx_Stability.Size = new System.Drawing.Size(776, 154);
             this.gbx_Stability.TabIndex = 3;
             this.gbx_Stability.TabStop = false;
             this.gbx_Stability.Text = "HOW STABLE DO YOU WANT IT TO BE?";
+            this.gbx_Stability.Visible = false;
             this.gbx_Stability.Enter += new System.EventHandler(this.gbx_Stability_Enter);
             // 
             // textBox1
@@ -336,12 +334,13 @@
             this.gbx_Release.Controls.Add(this.btn_RollingRelease);
             this.gbx_Release.Controls.Add(this.btn_SeasonalRelease);
             this.gbx_Release.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_Release.Location = new System.Drawing.Point(12, 310);
+            this.gbx_Release.Location = new System.Drawing.Point(12, 353);
             this.gbx_Release.Name = "gbx_Release";
             this.gbx_Release.Size = new System.Drawing.Size(776, 230);
             this.gbx_Release.TabIndex = 4;
             this.gbx_Release.TabStop = false;
             this.gbx_Release.Text = "DO YOU WANT A ROLLING OR SEASONAL RELEASE?";
+            this.gbx_Release.Visible = false;
             this.gbx_Release.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
             // textBox2
@@ -386,12 +385,13 @@
             this.gbx_Interface.Controls.Add(this.btn_WM);
             this.gbx_Interface.Controls.Add(this.btn_DE);
             this.gbx_Interface.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_Interface.Location = new System.Drawing.Point(12, 706);
+            this.gbx_Interface.Location = new System.Drawing.Point(12, 749);
             this.gbx_Interface.Name = "gbx_Interface";
             this.gbx_Interface.Size = new System.Drawing.Size(776, 187);
             this.gbx_Interface.TabIndex = 6;
             this.gbx_Interface.TabStop = false;
             this.gbx_Interface.Text = "WHICH USER INTERFACE DO YOU PREFER?";
+            this.gbx_Interface.Visible = false;
             this.gbx_Interface.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
             // textBox3
@@ -429,263 +429,43 @@
             this.btn_DE.UseVisualStyleBackColor = false;
             this.btn_DE.Click += new System.EventHandler(this.btn_DE_Click);
             // 
-            // gbx_DE
-            // 
-            this.gbx_DE.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.gbx_DE.Controls.Add(this.btn_Lxde);
-            this.gbx_DE.Controls.Add(this.btn_Enlightenment);
-            this.gbx_DE.Controls.Add(this.btn_Deepin);
-            this.gbx_DE.Controls.Add(this.btn_Lxqt);
-            this.gbx_DE.Controls.Add(this.btn_Cinnamon);
-            this.gbx_DE.Controls.Add(this.btn_Xfce);
-            this.gbx_DE.Controls.Add(this.btn_Mate);
-            this.gbx_DE.Controls.Add(this.btn_Gnome);
-            this.gbx_DE.Controls.Add(this.btn_KDEPlasma);
-            this.gbx_DE.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_DE.Location = new System.Drawing.Point(793, 14);
-            this.gbx_DE.Name = "gbx_DE";
-            this.gbx_DE.Size = new System.Drawing.Size(607, 187);
-            this.gbx_DE.TabIndex = 9;
-            this.gbx_DE.TabStop = false;
-            this.gbx_DE.Text = "TOP DESKTOP ENVIRONMENTS!";
-            this.gbx_DE.Visible = false;
-            this.gbx_DE.Enter += new System.EventHandler(this.gbx_DE_Enter);
-            // 
-            // btn_Lxde
-            // 
-            this.btn_Lxde.BackColor = System.Drawing.Color.Tan;
-            this.btn_Lxde.Location = new System.Drawing.Point(211, 127);
-            this.btn_Lxde.Name = "btn_Lxde";
-            this.btn_Lxde.Size = new System.Drawing.Size(184, 42);
-            this.btn_Lxde.TabIndex = 6;
-            this.btn_Lxde.Text = "LXDE";
-            this.btn_Lxde.UseVisualStyleBackColor = false;
-            this.btn_Lxde.Click += new System.EventHandler(this.btn_Lxde_Click);
-            // 
-            // btn_Enlightenment
-            // 
-            this.btn_Enlightenment.BackColor = System.Drawing.Color.Tan;
-            this.btn_Enlightenment.Location = new System.Drawing.Point(403, 127);
-            this.btn_Enlightenment.Name = "btn_Enlightenment";
-            this.btn_Enlightenment.Size = new System.Drawing.Size(184, 42);
-            this.btn_Enlightenment.TabIndex = 5;
-            this.btn_Enlightenment.Text = "ENLIGHTENMENT";
-            this.btn_Enlightenment.UseVisualStyleBackColor = false;
-            this.btn_Enlightenment.Click += new System.EventHandler(this.btn_Enlightenment_Click);
-            // 
-            // btn_Deepin
-            // 
-            this.btn_Deepin.BackColor = System.Drawing.Color.Tan;
-            this.btn_Deepin.Location = new System.Drawing.Point(20, 127);
-            this.btn_Deepin.Name = "btn_Deepin";
-            this.btn_Deepin.Size = new System.Drawing.Size(185, 42);
-            this.btn_Deepin.TabIndex = 4;
-            this.btn_Deepin.Text = "DEEPIN";
-            this.btn_Deepin.UseVisualStyleBackColor = false;
-            this.btn_Deepin.Click += new System.EventHandler(this.btn_Deepin_Click);
-            // 
-            // btn_Lxqt
-            // 
-            this.btn_Lxqt.BackColor = System.Drawing.Color.Tan;
-            this.btn_Lxqt.Location = new System.Drawing.Point(403, 79);
-            this.btn_Lxqt.Name = "btn_Lxqt";
-            this.btn_Lxqt.Size = new System.Drawing.Size(184, 42);
-            this.btn_Lxqt.TabIndex = 3;
-            this.btn_Lxqt.Text = "LXQT";
-            this.btn_Lxqt.UseVisualStyleBackColor = false;
-            this.btn_Lxqt.Click += new System.EventHandler(this.btn_Lxqt_Click);
-            // 
-            // btn_Cinnamon
-            // 
-            this.btn_Cinnamon.BackColor = System.Drawing.Color.Tan;
-            this.btn_Cinnamon.Location = new System.Drawing.Point(211, 79);
-            this.btn_Cinnamon.Name = "btn_Cinnamon";
-            this.btn_Cinnamon.Size = new System.Drawing.Size(184, 42);
-            this.btn_Cinnamon.TabIndex = 2;
-            this.btn_Cinnamon.Text = "CINNAMON";
-            this.btn_Cinnamon.UseVisualStyleBackColor = false;
-            this.btn_Cinnamon.Click += new System.EventHandler(this.btn_Cinnamon_Click);
-            // 
-            // btn_Xfce
-            // 
-            this.btn_Xfce.BackColor = System.Drawing.Color.Tan;
-            this.btn_Xfce.Location = new System.Drawing.Point(211, 31);
-            this.btn_Xfce.Name = "btn_Xfce";
-            this.btn_Xfce.Size = new System.Drawing.Size(184, 42);
-            this.btn_Xfce.TabIndex = 1;
-            this.btn_Xfce.Text = "XFCE";
-            this.btn_Xfce.UseVisualStyleBackColor = false;
-            this.btn_Xfce.Click += new System.EventHandler(this.btn_Xfce_Click);
-            // 
-            // btn_Mate
-            // 
-            this.btn_Mate.BackColor = System.Drawing.Color.Tan;
-            this.btn_Mate.Location = new System.Drawing.Point(403, 31);
-            this.btn_Mate.Name = "btn_Mate";
-            this.btn_Mate.Size = new System.Drawing.Size(184, 42);
-            this.btn_Mate.TabIndex = 1;
-            this.btn_Mate.Text = "MATÉ";
-            this.btn_Mate.UseVisualStyleBackColor = false;
-            this.btn_Mate.Click += new System.EventHandler(this.btn_Mate_Click);
-            // 
-            // btn_Gnome
-            // 
-            this.btn_Gnome.BackColor = System.Drawing.Color.Tan;
-            this.btn_Gnome.Location = new System.Drawing.Point(20, 31);
-            this.btn_Gnome.Name = "btn_Gnome";
-            this.btn_Gnome.Size = new System.Drawing.Size(185, 42);
-            this.btn_Gnome.TabIndex = 0;
-            this.btn_Gnome.Text = "GNOME";
-            this.btn_Gnome.UseVisualStyleBackColor = false;
-            this.btn_Gnome.Click += new System.EventHandler(this.btn_Gnome_Click);
-            // 
-            // btn_KDEPlasma
-            // 
-            this.btn_KDEPlasma.BackColor = System.Drawing.Color.Tan;
-            this.btn_KDEPlasma.Location = new System.Drawing.Point(20, 79);
-            this.btn_KDEPlasma.Name = "btn_KDEPlasma";
-            this.btn_KDEPlasma.Size = new System.Drawing.Size(185, 42);
-            this.btn_KDEPlasma.TabIndex = 0;
-            this.btn_KDEPlasma.Text = "KDE PLASMA";
-            this.btn_KDEPlasma.UseVisualStyleBackColor = false;
-            this.btn_KDEPlasma.Click += new System.EventHandler(this.btn_KDEPlasma_Click);
-            // 
-            // gbx_WM
-            // 
-            this.gbx_WM.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.gbx_WM.Controls.Add(this.btn_Awesome);
-            this.gbx_WM.Controls.Add(this.btn_Herbstluftwm);
-            this.gbx_WM.Controls.Add(this.btn_Qtile);
-            this.gbx_WM.Controls.Add(this.btn_Xmonad);
-            this.gbx_WM.Controls.Add(this.btn_Wayfire);
-            this.gbx_WM.Controls.Add(this.btn_Hyprland);
-            this.gbx_WM.Controls.Add(this.btn_Bspwm);
-            this.gbx_WM.Controls.Add(this.btn_i3);
-            this.gbx_WM.Controls.Add(this.btn_Sway);
-            this.gbx_WM.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_WM.Location = new System.Drawing.Point(793, 14);
-            this.gbx_WM.Name = "gbx_WM";
-            this.gbx_WM.Size = new System.Drawing.Size(607, 188);
-            this.gbx_WM.TabIndex = 10;
-            this.gbx_WM.TabStop = false;
-            this.gbx_WM.Text = "TOP WINDOW MANAGERS!";
-            this.gbx_WM.Visible = false;
-            this.gbx_WM.Enter += new System.EventHandler(this.gbx_WM_Enter);
-            // 
-            // btn_Awesome
-            // 
-            this.btn_Awesome.BackColor = System.Drawing.Color.Tan;
-            this.btn_Awesome.Location = new System.Drawing.Point(401, 127);
-            this.btn_Awesome.Name = "btn_Awesome";
-            this.btn_Awesome.Size = new System.Drawing.Size(186, 42);
-            this.btn_Awesome.TabIndex = 6;
-            this.btn_Awesome.Text = "AWESOME";
-            this.btn_Awesome.UseVisualStyleBackColor = false;
-            this.btn_Awesome.Click += new System.EventHandler(this.btn_Awesome_Click);
-            // 
-            // btn_Herbstluftwm
-            // 
-            this.btn_Herbstluftwm.BackColor = System.Drawing.Color.Tan;
-            this.btn_Herbstluftwm.Location = new System.Drawing.Point(21, 127);
-            this.btn_Herbstluftwm.Name = "btn_Herbstluftwm";
-            this.btn_Herbstluftwm.Size = new System.Drawing.Size(184, 42);
-            this.btn_Herbstluftwm.TabIndex = 5;
-            this.btn_Herbstluftwm.Text = "HERBSTLUFTWM";
-            this.btn_Herbstluftwm.UseVisualStyleBackColor = false;
-            this.btn_Herbstluftwm.Click += new System.EventHandler(this.btn_Herbstluftwm_Click);
-            // 
-            // btn_Qtile
-            // 
-            this.btn_Qtile.BackColor = System.Drawing.Color.Tan;
-            this.btn_Qtile.Location = new System.Drawing.Point(211, 127);
-            this.btn_Qtile.Name = "btn_Qtile";
-            this.btn_Qtile.Size = new System.Drawing.Size(184, 42);
-            this.btn_Qtile.TabIndex = 4;
-            this.btn_Qtile.Text = "QTILE";
-            this.btn_Qtile.UseVisualStyleBackColor = false;
-            this.btn_Qtile.Click += new System.EventHandler(this.btn_Qtile_Click);
-            // 
-            // btn_Xmonad
-            // 
-            this.btn_Xmonad.BackColor = System.Drawing.Color.Tan;
-            this.btn_Xmonad.Location = new System.Drawing.Point(403, 79);
-            this.btn_Xmonad.Name = "btn_Xmonad";
-            this.btn_Xmonad.Size = new System.Drawing.Size(184, 42);
-            this.btn_Xmonad.TabIndex = 3;
-            this.btn_Xmonad.Text = "XMONAD";
-            this.btn_Xmonad.UseVisualStyleBackColor = false;
-            this.btn_Xmonad.Click += new System.EventHandler(this.btn_Xmonad_Click);
-            // 
-            // btn_Wayfire
-            // 
-            this.btn_Wayfire.BackColor = System.Drawing.Color.Tan;
-            this.btn_Wayfire.Location = new System.Drawing.Point(211, 79);
-            this.btn_Wayfire.Name = "btn_Wayfire";
-            this.btn_Wayfire.Size = new System.Drawing.Size(184, 42);
-            this.btn_Wayfire.TabIndex = 2;
-            this.btn_Wayfire.Text = "WAYFIRE";
-            this.btn_Wayfire.UseVisualStyleBackColor = false;
-            this.btn_Wayfire.Click += new System.EventHandler(this.btn_Wayfire_Click);
-            // 
-            // btn_Hyprland
-            // 
-            this.btn_Hyprland.BackColor = System.Drawing.Color.Tan;
-            this.btn_Hyprland.Location = new System.Drawing.Point(211, 31);
-            this.btn_Hyprland.Name = "btn_Hyprland";
-            this.btn_Hyprland.Size = new System.Drawing.Size(184, 42);
-            this.btn_Hyprland.TabIndex = 1;
-            this.btn_Hyprland.Text = "HYPRLAND";
-            this.btn_Hyprland.UseVisualStyleBackColor = false;
-            this.btn_Hyprland.Click += new System.EventHandler(this.btn_Hyprland_Click);
-            // 
-            // btn_Bspwm
-            // 
-            this.btn_Bspwm.BackColor = System.Drawing.Color.Tan;
-            this.btn_Bspwm.Location = new System.Drawing.Point(403, 31);
-            this.btn_Bspwm.Name = "btn_Bspwm";
-            this.btn_Bspwm.Size = new System.Drawing.Size(184, 42);
-            this.btn_Bspwm.TabIndex = 1;
-            this.btn_Bspwm.Text = "BSPWM";
-            this.btn_Bspwm.UseVisualStyleBackColor = false;
-            this.btn_Bspwm.Click += new System.EventHandler(this.btn_Bspwm_Click);
-            // 
-            // btn_i3
-            // 
-            this.btn_i3.BackColor = System.Drawing.Color.Tan;
-            this.btn_i3.Location = new System.Drawing.Point(21, 31);
-            this.btn_i3.Name = "btn_i3";
-            this.btn_i3.Size = new System.Drawing.Size(184, 42);
-            this.btn_i3.TabIndex = 0;
-            this.btn_i3.Text = "i3";
-            this.btn_i3.UseVisualStyleBackColor = false;
-            this.btn_i3.Click += new System.EventHandler(this.btn_i3_Click);
-            // 
-            // btn_Sway
-            // 
-            this.btn_Sway.BackColor = System.Drawing.Color.Tan;
-            this.btn_Sway.Location = new System.Drawing.Point(21, 79);
-            this.btn_Sway.Name = "btn_Sway";
-            this.btn_Sway.Size = new System.Drawing.Size(184, 42);
-            this.btn_Sway.TabIndex = 0;
-            this.btn_Sway.Text = "SWAY";
-            this.btn_Sway.UseVisualStyleBackColor = false;
-            this.btn_Sway.Click += new System.EventHandler(this.btn_Sway_Click);
-            // 
             // gbx_DisplayServer
             // 
             this.gbx_DisplayServer.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_DisplayServer.Controls.Add(this.button1);
+            this.gbx_DisplayServer.Controls.Add(this.button2);
             this.gbx_DisplayServer.Controls.Add(this.textBox4);
             this.gbx_DisplayServer.Controls.Add(this.btn_Wayland);
             this.gbx_DisplayServer.Controls.Add(this.btn_X11);
             this.gbx_DisplayServer.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbx_DisplayServer.Location = new System.Drawing.Point(795, 614);
             this.gbx_DisplayServer.Name = "gbx_DisplayServer";
-            this.gbx_DisplayServer.Size = new System.Drawing.Size(606, 279);
+            this.gbx_DisplayServer.Size = new System.Drawing.Size(606, 322);
             this.gbx_DisplayServer.TabIndex = 11;
             this.gbx_DisplayServer.TabStop = false;
-            this.gbx_DisplayServer.Text = "DISTROBUTION FILTER . . . DISPLAY SERVERS . . . ";
+            this.gbx_DisplayServer.Text = "DISTRIBUTION FILTERS";
             this.gbx_DisplayServer.Visible = false;
             this.gbx_DisplayServer.Enter += new System.EventHandler(this.gbx_DisplayServer_Enter);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Tan;
+            this.button1.Location = new System.Drawing.Point(307, 269);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(278, 42);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "X86_64 -64bit";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Tan;
+            this.button2.Location = new System.Drawing.Point(18, 269);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(279, 42);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "X86 - 32bit";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
@@ -695,16 +475,16 @@
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(566, 184);
+            this.textBox4.Size = new System.Drawing.Size(565, 184);
             this.textBox4.TabIndex = 4;
             this.textBox4.Text = resources.GetString("textBox4.Text");
             // 
             // btn_Wayland
             // 
             this.btn_Wayland.BackColor = System.Drawing.Color.Tan;
-            this.btn_Wayland.Location = new System.Drawing.Point(210, 31);
+            this.btn_Wayland.Location = new System.Drawing.Point(307, 31);
             this.btn_Wayland.Name = "btn_Wayland";
-            this.btn_Wayland.Size = new System.Drawing.Size(184, 42);
+            this.btn_Wayland.Size = new System.Drawing.Size(278, 42);
             this.btn_Wayland.TabIndex = 1;
             this.btn_Wayland.Text = "WAYLAND";
             this.btn_Wayland.UseVisualStyleBackColor = false;
@@ -713,9 +493,9 @@
             // btn_X11
             // 
             this.btn_X11.BackColor = System.Drawing.Color.Tan;
-            this.btn_X11.Location = new System.Drawing.Point(19, 31);
+            this.btn_X11.Location = new System.Drawing.Point(18, 31);
             this.btn_X11.Name = "btn_X11";
-            this.btn_X11.Size = new System.Drawing.Size(185, 42);
+            this.btn_X11.Size = new System.Drawing.Size(279, 42);
             this.btn_X11.TabIndex = 0;
             this.btn_X11.Text = "X11";
             this.btn_X11.UseVisualStyleBackColor = false;
@@ -723,7 +503,7 @@
             // 
             // pbx_GUI
             // 
-            this.pbx_GUI.Location = new System.Drawing.Point(794, 207);
+            this.pbx_GUI.Location = new System.Drawing.Point(793, 207);
             this.pbx_GUI.Name = "pbx_GUI";
             this.pbx_GUI.Size = new System.Drawing.Size(606, 402);
             this.pbx_GUI.TabIndex = 12;
@@ -733,21 +513,36 @@
             // gbx_Distros
             // 
             this.gbx_Distros.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_Distros.Controls.Add(this.textBox6);
             this.gbx_Distros.Controls.Add(this.btn_VisitDistro);
             this.gbx_Distros.Controls.Add(this.lbx_RecommendedDistributions);
             this.gbx_Distros.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbx_Distros.Location = new System.Drawing.Point(1408, 14);
             this.gbx_Distros.Name = "gbx_Distros";
-            this.gbx_Distros.Size = new System.Drawing.Size(321, 880);
+            this.gbx_Distros.Size = new System.Drawing.Size(321, 673);
             this.gbx_Distros.TabIndex = 13;
             this.gbx_Distros.TabStop = false;
             this.gbx_Distros.Text = "RECOMMENDED DISTROS";
             this.gbx_Distros.Enter += new System.EventHandler(this.gbx_Distros_Enter);
             // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox6.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(16, 603);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.ReadOnly = true;
+            this.textBox6.Size = new System.Drawing.Size(290, 55);
+            this.textBox6.TabIndex = 4;
+            this.textBox6.Text = "* Choose a distro from the list and push \"Visit Distro\", it will take you to the " +
+    "download page for the distro.";
+            // 
             // btn_VisitDistro
             // 
-            this.btn_VisitDistro.BackColor = System.Drawing.Color.Tan;
-            this.btn_VisitDistro.Location = new System.Drawing.Point(16, 821);
+            this.btn_VisitDistro.BackColor = System.Drawing.Color.SaddleBrown;
+            this.btn_VisitDistro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_VisitDistro.Location = new System.Drawing.Point(16, 555);
             this.btn_VisitDistro.Name = "btn_VisitDistro";
             this.btn_VisitDistro.Size = new System.Drawing.Size(290, 42);
             this.btn_VisitDistro.TabIndex = 2;
@@ -757,33 +552,183 @@
             // 
             // lbx_RecommendedDistributions
             // 
+            this.lbx_RecommendedDistributions.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbx_RecommendedDistributions.FormattingEnabled = true;
-            this.lbx_RecommendedDistributions.ItemHeight = 20;
-            this.lbx_RecommendedDistributions.Location = new System.Drawing.Point(16, 31);
+            this.lbx_RecommendedDistributions.ItemHeight = 16;
+            this.lbx_RecommendedDistributions.Location = new System.Drawing.Point(16, 33);
             this.lbx_RecommendedDistributions.Name = "lbx_RecommendedDistributions";
-            this.lbx_RecommendedDistributions.Size = new System.Drawing.Size(290, 784);
+            this.lbx_RecommendedDistributions.Size = new System.Drawing.Size(290, 516);
             this.lbx_RecommendedDistributions.TabIndex = 0;
             this.lbx_RecommendedDistributions.SelectedIndexChanged += new System.EventHandler(this.lbx_RecommendedDistributions_SelectedIndexChanged);
+            // 
+            // btn_Ventoy
+            // 
+            this.btn_Ventoy.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btn_Ventoy.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ventoy.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_Ventoy.Location = new System.Drawing.Point(16, 31);
+            this.btn_Ventoy.Name = "btn_Ventoy";
+            this.btn_Ventoy.Size = new System.Drawing.Size(286, 42);
+            this.btn_Ventoy.TabIndex = 14;
+            this.btn_Ventoy.Text = "VENTOY ";
+            this.btn_Ventoy.UseVisualStyleBackColor = false;
+            this.btn_Ventoy.Click += new System.EventHandler(this.btn_Ventoy_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.btn_Ventoy);
+            this.groupBox1.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(1408, 693);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(321, 243);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "GET STARTED FOR REAL";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox5.Font = new System.Drawing.Font("Lucida Sans Unicode", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(16, 76);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(286, 156);
+            this.textBox5.TabIndex = 3;
+            this.textBox5.Text = resources.GetString("textBox5.Text");
+            // 
+            // wb_Youtube
+            // 
+            this.wb_Youtube.Location = new System.Drawing.Point(793, 207);
+            this.wb_Youtube.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wb_Youtube.Name = "wb_Youtube";
+            this.wb_Youtube.Size = new System.Drawing.Size(605, 400);
+            this.wb_Youtube.TabIndex = 16;
+            this.wb_Youtube.Visible = false;
+            this.wb_Youtube.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.wb_Youtube_DocumentCompleted);
+            // 
+            // txtVideoLink
+            // 
+            this.txtVideoLink.Location = new System.Drawing.Point(127, 943);
+            this.txtVideoLink.Name = "txtVideoLink";
+            this.txtVideoLink.ReadOnly = true;
+            this.txtVideoLink.Size = new System.Drawing.Size(1603, 20);
+            this.txtVideoLink.TabIndex = 17;
+            this.txtVideoLink.Visible = false;
+            this.txtVideoLink.TextChanged += new System.EventHandler(this.txtVideoLink_TextChanged);
+            // 
+            // lbl_VideoLink
+            // 
+            this.lbl_VideoLink.AutoSize = true;
+            this.lbl_VideoLink.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_VideoLink.Location = new System.Drawing.Point(13, 943);
+            this.lbl_VideoLink.Name = "lbl_VideoLink";
+            this.lbl_VideoLink.Size = new System.Drawing.Size(108, 20);
+            this.lbl_VideoLink.TabIndex = 18;
+            this.lbl_VideoLink.Text = "VIDEO LINK";
+            this.lbl_VideoLink.Visible = false;
+            // 
+            // gbx_WM_Drop
+            // 
+            this.gbx_WM_Drop.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_WM_Drop.Controls.Add(this.comboBox1);
+            this.gbx_WM_Drop.Controls.Add(this.btn_WM_Check);
+            this.gbx_WM_Drop.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_WM_Drop.Location = new System.Drawing.Point(793, 110);
+            this.gbx_WM_Drop.Name = "gbx_WM_Drop";
+            this.gbx_WM_Drop.Size = new System.Drawing.Size(609, 91);
+            this.gbx_WM_Drop.TabIndex = 19;
+            this.gbx_WM_Drop.TabStop = false;
+            this.gbx_WM_Drop.Text = "TOP WINDOW MANAGERS!";
+            this.gbx_WM_Drop.Visible = false;
+            this.gbx_WM_Drop.Enter += new System.EventHandler(this.gbx_WM_Drop_Enter);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(22, 37);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(395, 28);
+            this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // btn_WM_Check
+            // 
+            this.btn_WM_Check.BackColor = System.Drawing.Color.Tan;
+            this.btn_WM_Check.Location = new System.Drawing.Point(423, 31);
+            this.btn_WM_Check.Name = "btn_WM_Check";
+            this.btn_WM_Check.Size = new System.Drawing.Size(164, 42);
+            this.btn_WM_Check.TabIndex = 1;
+            this.btn_WM_Check.Text = "CHECK OUT";
+            this.btn_WM_Check.UseVisualStyleBackColor = false;
+            this.btn_WM_Check.Click += new System.EventHandler(this.btn_WM_Check_Click);
+            // 
+            // gbx_DE_Drop
+            // 
+            this.gbx_DE_Drop.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.gbx_DE_Drop.Controls.Add(this.comboBox2);
+            this.gbx_DE_Drop.Controls.Add(this.btn_DE_Check);
+            this.gbx_DE_Drop.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbx_DE_Drop.Location = new System.Drawing.Point(793, 110);
+            this.gbx_DE_Drop.Name = "gbx_DE_Drop";
+            this.gbx_DE_Drop.Size = new System.Drawing.Size(609, 91);
+            this.gbx_DE_Drop.TabIndex = 20;
+            this.gbx_DE_Drop.TabStop = false;
+            this.gbx_DE_Drop.Text = "TOP DESKTOP ENVIRONMENTS!";
+            this.gbx_DE_Drop.Visible = false;
+            this.gbx_DE_Drop.Enter += new System.EventHandler(this.gbx_DE_Drop_Enter);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(22, 37);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(395, 28);
+            this.comboBox2.TabIndex = 2;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // btn_DE_Check
+            // 
+            this.btn_DE_Check.BackColor = System.Drawing.Color.Tan;
+            this.btn_DE_Check.Location = new System.Drawing.Point(423, 31);
+            this.btn_DE_Check.Name = "btn_DE_Check";
+            this.btn_DE_Check.Size = new System.Drawing.Size(164, 42);
+            this.btn_DE_Check.TabIndex = 1;
+            this.btn_DE_Check.Text = "CHECK OUT";
+            this.btn_DE_Check.UseVisualStyleBackColor = false;
+            this.btn_DE_Check.Click += new System.EventHandler(this.btn_DE_Check_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1742, 905);
+            this.ClientSize = new System.Drawing.Size(1742, 948);
+            this.Controls.Add(this.gbx_DE_Drop);
+            this.Controls.Add(this.gbx_WM_Drop);
+            this.Controls.Add(this.lbl_VideoLink);
+            this.Controls.Add(this.txtVideoLink);
+            this.Controls.Add(this.wb_Youtube);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbx_Distros);
-            this.Controls.Add(this.gbx_WM);
             this.Controls.Add(this.pbx_GUI);
             this.Controls.Add(this.gbx_DisplayServer);
-            this.Controls.Add(this.gbx_DE);
             this.Controls.Add(this.gbx_Interface);
             this.Controls.Add(this.gbx_Release);
             this.Controls.Add(this.gbx_Stability);
             this.Controls.Add(this.gbx_Purpose);
             this.Controls.Add(this.gbx_Experience);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "THE LINUX ADVISOR";
+            this.Text = "THE GNU/LINUX ADVISOR";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.gbx_Experience.ResumeLayout(false);
             this.gbx_Purpose.ResumeLayout(false);
             this.gbx_Stability.ResumeLayout(false);
@@ -792,12 +737,15 @@
             this.gbx_Release.PerformLayout();
             this.gbx_Interface.ResumeLayout(false);
             this.gbx_Interface.PerformLayout();
-            this.gbx_DE.ResumeLayout(false);
-            this.gbx_WM.ResumeLayout(false);
             this.gbx_DisplayServer.ResumeLayout(false);
             this.gbx_DisplayServer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_GUI)).EndInit();
             this.gbx_Distros.ResumeLayout(false);
+            this.gbx_Distros.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.gbx_WM_Drop.ResumeLayout(false);
+            this.gbx_DE_Drop.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -832,34 +780,29 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button btn_WM;
         private System.Windows.Forms.Button btn_DE;
-        private System.Windows.Forms.GroupBox gbx_DE;
-        private System.Windows.Forms.Button btn_Lxqt;
-        private System.Windows.Forms.Button btn_Cinnamon;
-        private System.Windows.Forms.Button btn_Xfce;
-        private System.Windows.Forms.Button btn_Mate;
-        private System.Windows.Forms.Button btn_Gnome;
-        private System.Windows.Forms.Button btn_KDEPlasma;
-        private System.Windows.Forms.GroupBox gbx_WM;
-        private System.Windows.Forms.Button btn_Xmonad;
-        private System.Windows.Forms.Button btn_Wayfire;
-        private System.Windows.Forms.Button btn_Hyprland;
-        private System.Windows.Forms.Button btn_Bspwm;
-        private System.Windows.Forms.Button btn_i3;
-        private System.Windows.Forms.Button btn_Sway;
         private System.Windows.Forms.GroupBox gbx_DisplayServer;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button btn_Wayland;
         private System.Windows.Forms.Button btn_X11;
-        private System.Windows.Forms.Button btn_Awesome;
-        private System.Windows.Forms.Button btn_Herbstluftwm;
-        private System.Windows.Forms.Button btn_Qtile;
-        private System.Windows.Forms.Button btn_Lxde;
-        private System.Windows.Forms.Button btn_Enlightenment;
-        private System.Windows.Forms.Button btn_Deepin;
         private System.Windows.Forms.PictureBox pbx_GUI;
         private System.Windows.Forms.GroupBox gbx_Distros;
         private System.Windows.Forms.Button btn_VisitDistro;
         private System.Windows.Forms.ListBox lbx_RecommendedDistributions;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_Ventoy;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.WebBrowser wb_Youtube;
+        private System.Windows.Forms.TextBox txtVideoLink;
+        private System.Windows.Forms.Label lbl_VideoLink;
+        private System.Windows.Forms.GroupBox gbx_WM_Drop;
+        private System.Windows.Forms.Button btn_WM_Check;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox gbx_DE_Drop;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btn_DE_Check;
     }
 }
 

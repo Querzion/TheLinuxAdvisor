@@ -8,3 +8,8 @@
 \\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.csproj.CoreCompileInputs.cache
 \\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.exe
 \\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.pdb
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\bin\Debug\Interop.WMPLib.dll
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\bin\Debug\AxInterop.WMPLib.dll
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Interop.WMPLib.dll
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\AxInterop.WMPLib.dll
+\\VMC\USERs\QUERZIONs\WORK\CODING\THE LINUX ADVISOR\Linux Advisor\obj\Debug\Linux Advisor.csproj.ResolveComReference.cache
